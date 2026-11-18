@@ -1,0 +1,29 @@
+Microsoft Visual C++ Runtime
+============================
+
+The Windows executable of QuestionSheet2LMS contains the following
+Microsoft Visual C++ Runtime components:
+
+    VCRUNTIME140.dll
+    VCRUNTIME140_1.dll
+
+These files originate from the official Python 3.14.7 Windows
+distribution used to build QuestionSheet2LMS and are incorporated
+into the executable by PyInstaller.
+
+The Microsoft Visual C++ Runtime components remain subject to the
+applicable Microsoft Software License Terms and redistribution
+conditions.
+
+Microsoft states that redistribution of Visual C++ Runtime files
+is subject to the applicable license terms for Visual Studio and
+the Visual C++ Redistributable.
+
+Official Microsoft information:
+
+https://learn.microsoft.com/cpp/windows/redistributing-visual-cpp-files
+
+https://learn.microsoft.com/cpp/windows/determining-which-dlls-to-redistribute
+
+This notice is provided for attribution and transparency. It does
+not modify or replace Microsoft's license terms.
