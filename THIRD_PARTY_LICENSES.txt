@@ -1,0 +1,244 @@
+QuestionSheet2LMS – Third-Party Software Notices
+=================================================
+
+Version: 0.3.0-alpha
+
+QuestionSheet2LMS is distributed under the GNU General Public License,
+version 3 or later (GPL-3.0-or-later).
+
+The Windows executable includes third-party software components.
+The corresponding license texts and notices are provided in the
+"release_licenses" directory.
+
+
+1. Python 3.14.7
+----------------
+Component:
+Python runtime and Python standard library
+
+License:
+Python Software Foundation License Version 2 (PSF-2.0)
+
+Project:
+https://www.python.org/
+
+QuestionSheet2LMS.exe contains the Python 3.14.7 runtime, including
+python314.dll and parts of the Python standard library.
+
+The Python distribution incorporates additional third-party software
+under separate licenses. The Windows executable contains, among other
+components, libraries used by CPython such as OpenSSL, libffi, zlib,
+Zstandard and libtommath.
+
+The applicable Python license and incorporated-software notices are
+contained in:
+
+    release_licenses/PYTHON-3.14.7-LICENSE.txt
+
+Further information:
+https://docs.python.org/3.14/license.html
+
+
+2. Tcl/Tk 9.0
+--------------
+Component:
+Tcl/Tk runtime used by Python's tkinter module
+
+License:
+Tcl/Tk License
+
+Project:
+https://www.tcl-lang.org/
+
+QuestionSheet2LMS.exe contains Tcl/Tk runtime components, including:
+
+    tcl90.dll
+    tcl9tk90.dll
+
+The full license text is contained in:
+
+    release_licenses/TCL-TK-9.0-LICENSE.txt
+
+
+3. openpyxl 3.1.5
+-----------------
+Component:
+openpyxl
+
+License:
+MIT License
+
+Project:
+https://openpyxl.readthedocs.io/
+
+Source:
+https://foss.heptapod.net/openpyxl/openpyxl
+
+The full license text from the installed package is contained in:
+
+    release_licenses/OPENPYXL-3.1.5-LICENCE.rst
+
+
+4. et_xmlfile 2.0.0
+-------------------
+Component:
+et_xmlfile
+
+License:
+MIT License
+
+Project / Source:
+https://foss.heptapod.net/openpyxl/et_xmlfile
+
+The license and attribution files from the installed package are
+contained in:
+
+    release_licenses/ET_XMLFILE-2.0.0-LICENCE.rst
+    release_licenses/ET_XMLFILE-2.0.0-LICENCE.python
+    release_licenses/ET_XMLFILE-2.0.0-AUTHORS.txt
+
+
+5. odfpy 1.4.1
+---------------
+Component:
+odfpy
+
+Project:
+https://github.com/eea/odfpy
+
+Except for the OpenDocument schemas, odfpy is distributed under either
+
+    GNU General Public License version 2 or later
+
+or
+
+    Apache License, Version 2.0.
+
+QuestionSheet2LMS redistributes the odfpy components under the
+Apache License, Version 2.0.
+
+The full Apache License text is contained in:
+
+    release_licenses/ODFPY-1.4.1-APACHE-2.0.txt
+
+Individual odfpy source files may contain additional historical
+copyright and license notices. These notices remain part of the
+respective source files.
+
+No separate OpenDocument schema files were identified in the
+inspected QuestionSheet2LMS executable.
+
+
+6. defusedxml 0.7.1
+-------------------
+Component:
+defusedxml
+
+License:
+Python Software Foundation License (PSFL)
+
+Project:
+https://github.com/tiran/defusedxml
+
+The full license text from the installed package is contained in:
+
+    release_licenses/DEFUSEDXML-0.7.1-LICENSE.txt
+
+
+7. PyInstaller 6.22.2
+---------------------
+Component:
+PyInstaller bootloader and runtime support
+
+License:
+GNU General Public License version 2 or later with the
+PyInstaller Bootloader Exception; individual files may be
+licensed under other compatible licenses.
+
+Project:
+https://pyinstaller.org/
+
+QuestionSheet2LMS.exe was created using PyInstaller 6.22.2.
+The PyInstaller Bootloader Exception permits applications generated
+with PyInstaller to be distributed under licenses other than the
+PyInstaller GPL license, subject to the licenses of the included
+application and third-party components.
+
+The PyInstaller license file from the build environment is contained in:
+
+    release_licenses/PYINSTALLER-6.22.2-COPYING.txt
+
+
+8. Microsoft Visual C++ Runtime
+-------------------------------
+Components:
+
+    VCRUNTIME140.dll
+    VCRUNTIME140_1.dll
+
+These Microsoft Visual C++ Runtime components originate from the
+official Python 3.14.7 Windows distribution used to build
+QuestionSheet2LMS and are incorporated into the executable by
+PyInstaller.
+
+The components remain subject to the applicable Microsoft Software
+License Terms and redistribution conditions.
+
+Further information is contained in:
+
+    release_licenses/MICROSOFT-VC-RUNTIME-NOTICE.txt
+
+Official Microsoft redistribution information:
+https://learn.microsoft.com/cpp/windows/redistributing-visual-cpp-files
+
+
+9. Additional native components included with CPython
+-----------------------------------------------------
+The Windows executable also contains native libraries and Python
+extension modules distributed with or used by CPython, including
+components such as:
+
+    libcrypto-3.dll
+    libssl-3.dll
+    libffi-8.dll
+    libtommath.dll
+    zlib1.dll
+
+and CPython extension modules such as:
+
+    _bz2.pyd
+    _ctypes.pyd
+    _hashlib.pyd
+    _lzma.pyd
+    _ssl.pyd
+    _zstd.pyd
+    pyexpat.pyd
+
+The applicable licenses and acknowledgements for software incorporated
+into Python are documented in the Python 3.14.7 license material.
+
+See:
+
+    release_licenses/PYTHON-3.14.7-LICENSE.txt
+
+and:
+
+https://docs.python.org/3.14/license.html
+
+
+10. Scope of this notice
+------------------------
+Inspection of the distributed PyInstaller executable and its embedded
+PYZ archive identified the following additional Python packages:
+
+    openpyxl
+    et_xmlfile
+    odfpy
+    defusedxml
+
+No other separately installed third-party Python packages were
+identified as runtime components of the inspected build.
+
+This notice is intended to document third-party software included in
+the distributed Windows executable. It does not alter the license terms
+of QuestionSheet2LMS or of any third-party component.
