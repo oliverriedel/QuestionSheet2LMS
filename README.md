@@ -10,6 +10,14 @@ importierbare ILIAS-Fragenpool-Dateien oder vollständige ILIAS-Testobjekte.
 
 Der Schwerpunkt der aktuellen Alpha-Version liegt auf ILIAS.
 
+## Download für Windows
+
+[Aktuelle Windows-Version herunterladen](https://github.com/oliverriedel/QuestionSheet2LMS/releases)
+
+Die Windows-Version enthält eine direkt ausführbare EXE sowie Beispieldateien, PDF-Anleitungen und Lizenzinformationen. **Eine Python-Installation ist nicht erforderlich.**
+
+ZIP-Datei herunterladen, vollständig entpacken und QuestionSheet2LMS.exe starten.
+
 ## 📜 Hintergrund & Entstehung
 
 Der Ausgangspunkt für QuestionSheet2LMS war die langjährige Nutzung und
